@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-{
-  "name": "smart-shopee",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "engines": {
-    "node": "22.x"
-  },
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "lint": "next lint",
-    "export": "next export"
-  },
-  "dependencies": {
-    "@supabase/ssr": "^0.5.0",
-    "@supabase/supabase-js": "^2.45.0",
-    "framer-motion": "^11.0.0",
-    "next": "^14.2.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.7",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.9.3"
-  }
-}
-=======
 {
   "name": "smart-shopee",
   "version": "0.1.0",
@@ -45,9 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "next": "16.0.1",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -63,4 +27,3 @@
     "node": ">=18.18.0"
   }
 }
->>>>>>> 002b9c7 (Initial Smart Shopee project)
