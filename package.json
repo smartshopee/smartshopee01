@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "smart-shopee",
   "private": true,
@@ -32,3 +33,34 @@
     "typescript": "^5.9.3"
   }
 }
+=======
+{
+  "name": "smart-shopee",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "next": "16.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
+>>>>>>> 002b9c7 (Initial Smart Shopee project)
