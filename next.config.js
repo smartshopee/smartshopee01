@@ -10,8 +10,7 @@ const nextConfig = {
       { protocol: 'https', hostname: '**' },
       { protocol: 'http', hostname: '**' }
     ]
-  },
-  output: 'export'
+  }
 };
 
 export default nextConfig;
