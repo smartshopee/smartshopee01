@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 node_modules
-=======
-node_modules
->>>>>>> 9108401 (Initial Smart Shopee project)
+.env
+.env.local
+.env*.local
+.next
+.netlify
